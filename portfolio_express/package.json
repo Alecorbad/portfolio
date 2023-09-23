@@ -1,0 +1,25 @@
+{
+  "name": "portfolio_stage",
+  "version": "1.0.0",
+  "description": "Progetto per imparare le tecnologie web, portfolio personale in cui segnare tutta l'esperienza di stage, tecnologie utilizzre: Angular, Node.js, Express.js e MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest",
+    "api"
+  ],
+  "author": "alecor",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.10",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.2"
+  }
+}
