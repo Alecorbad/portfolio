@@ -1,0 +1,16 @@
+:root {
+  /* Definisci la variabile per l'altezza dell'headbar */
+  --head-bar-height: 5rem;
+  /* Definisci la variabile per l'altezza del footer */
+  --footer-height: 4rem;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}

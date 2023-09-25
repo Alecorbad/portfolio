@@ -1,0 +1,42 @@
+#headbar{
+  background: red;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pages-container{
+  width: 100%;
+}
+
+#page-list{
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.page-item{
+  flex: 1;
+  height: 100%;
+  max-width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-item>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 70%;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.page-item>div>label{
+  cursor: inherit;
+}
