@@ -1,10 +1,9 @@
 {
-  "scripts":
-  {
+  "scripts": {
     "start:both": "concurrently \"npm run start:angular\" \"npm run open_browser:angular\" \"npm run start:express\" \"npm run open_browser:express\"",
     "start:angular": "cd portfolio_angular && npm start",
-    "open_browser:angular" : "start chrome --user-data-dir=%temp%\\chrome-profile http://localhost:4200/",
+    "open_browser:angular": "start chrome --user-data-dir=%temp%\\chrome-profile http://localhost:4200/",
     "start:express": "cd portfolio_express && npm start",
-    "open_browser:express" : "start chrome --user-data-dir=%temp%\\chrome-profile http://localhost:8080/"
+    "open_browser:express": "start chrome --user-data-dir=%temp%\\chrome-profile http://localhost:8080/"
   }
 }
