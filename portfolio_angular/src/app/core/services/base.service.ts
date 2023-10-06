@@ -4,15 +4,18 @@ import {AppInjector} from "../../app.module";
 import {NavigationExtras, Router} from "@angular/router";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class BaseService {
   httpService: HttpService;
   router: Router;
 
-  constructor() {
-    this.httpService = AppInjector.get(HttpService);
-    this.router = AppInjector.get(Router);
+  constructor(
+    router: Router,
+    httpService: HttpService
+    ) {
+    this.httpService = httpService;
+    this.router = router;
   }
 
 

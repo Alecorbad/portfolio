@@ -10,7 +10,11 @@ import { FooterComponent } from './core/layout/footer/footer.component';
 import { HeadbarComponent } from './core/layout/headbar/headbar.component';
 import { MasterComponent } from './core/layout/master/master.component';
 import {PageService} from "./core/services/domain/page.service";
-import { ArticoliComponent } from './core/pages/articoli/articoli.component';
+import { SecondaPaginaComponent } from './core/pages/seconda-pagina/seconda-pagina.component';
+import { TerzaPaginaComponent } from './core/pages/terza-pagina/terza-pagina.component';
+import { PrimaPaginaComponent } from './core/pages/prima-pagina/prima-pagina.component';
+import { CodeVisualizationComponent } from './core/components/code-visualization/code-visualization.component';
+
 
 
 export let AppInjector: Injector;
@@ -24,7 +28,10 @@ export let AppInjector: Injector;
     FooterComponent,
     HeadbarComponent,
     MasterComponent,
-    ArticoliComponent,
+    PrimaPaginaComponent,
+    SecondaPaginaComponent,
+    TerzaPaginaComponent,
+    CodeVisualizationComponent
   ],
   imports: [
     BrowserModule,

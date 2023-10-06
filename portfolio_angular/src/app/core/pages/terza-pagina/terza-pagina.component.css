@@ -1,0 +1,11 @@
+#title-container>div  {
+    padding-top: 1.5rem;
+    font-size: 3rem;
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #1f96c5 0px 0px 10px, #0d1ad3 0px 0px 15px, #25cdfc 0px 0px 20px, #240df1 0px 0px 30px, #0a92e7 0px 0px 40px, #0c61d7 0px 0px 50px, #0bd5f0 0px 0px 75px;
+}
+
+#title-container>div {
+    margin: auto auto;
+    text-align: center
+  }

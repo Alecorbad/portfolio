@@ -1,4 +1,4 @@
-import {Component, OnDestroy} from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import {lastValueFrom, Observable, Subject} from 'rxjs';
 import {NavigationExtras, Router} from "@angular/router";
 import {AppInjector} from "../../../app.module";
@@ -20,6 +20,7 @@ export abstract class BaseComponent implements OnDestroy {
     this.baseService = AppInjector.get(BaseService);
     this.baseService.router = AppInjector.get(Router);
   }
+
 
   ngOnDestroy(): void {
     this.componentDestroyed$.next(true);

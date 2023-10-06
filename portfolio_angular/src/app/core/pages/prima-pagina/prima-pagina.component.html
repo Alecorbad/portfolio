@@ -1,0 +1,107 @@
+<div style="background-color: #ffcad4">
+  <font face="Palatino Linotype">
+  <div id="title-container">
+    <div>Prima settimana di PCTO</div>
+  </div> </font>
+  <font face="Palatino Linotype">
+  <UL TYPE="DISC">
+    <li>
+      <p>
+        <u> La prima settimana </u> di stage mi ha permesso di imparare meglio
+        il linguaggio <u> HTML </u> e <u> CSS </u>, grazie, anche, ai manuali
+        forniti dall'azienda,
+      </p>
+    </li>
+    <li>
+      <p>Mi ha permesso di creare pagine HTML e CSS.</p>
+    </li>
+    <li>
+      <p>
+        Durante il primo giorno di stage mi è stato affidato il compito di
+        installare <u> GitFork dell'IDE GitHub </u> ,
+        <u> Visual Studio Code </u> e <u> Node.js </u> all'interno del computer
+        aziendale,</p>
+      <p>con implemento di documentazione HTML, fornita dall'azienda.</p>
+    </li>
+      <li>
+        <p><u> Formattazione fogli HTML e CSS su Visual Studio Code. </u></p>
+      </li>
+  
+  <li>
+  <p> Per la realizzazione dei file <u> HTML </u> sono state usate le classi, definite in ogni file <u> CSS. </u> </p>
+  <p> Per integrare il codice CSS all'interno del codice HTML, è stato usato il tag <u> link href </u> all'interno del file HTML.</p>
+</li>
+<app-code-visualization [text]="codeSamples.get('code_1')">
+</app-code-visualization>
+
+  <li>
+    <p> Per integrare il font è stato utilizzato il tag <u> font face</u> direttamente all'interno del file HTML.</p>
+    <app-code-visualization [text]="codeSamples.get('code_2')">
+    </app-code-visualization>
+  </li>
+
+  <li>
+    <p> Per porre al centro il titolo, è stata usata la classe <u> title-container>div. </u> </p>
+    <app-code-visualization [text]="codeSamples.get('code_3')">
+    </app-code-visualization>
+    </li>
+
+    <li>
+      <p> All'interno della classe <u> title-container>div> h1 </u>, utilizzata per determinare la grandezza del titolo, il tag <u> color </u> identifica il colore del titolo. </p>
+    <p> Per creare le ombre intorno al titolo è stato usato usato il tag <u> text-shadow,</u> all'interno della classe <u> title-container>div h1. </u> </p>
+  </li>
+  <app-code-visualization [text]="codeSamples.get('code_4')">
+  </app-code-visualization>
+
+  <li>
+    <div id="cursor"> <p (click)="goToPreviousPage()"> 
+   Per creare la sovrapposizione delle due immagini, nella <font color="#FF00FF"> <u> home page,</u> </font> sono state usate due classi, <u> shadow </u> e <u> image. </u> </p> </div>
+  <p> All'interno della classe <u> shadow,</u> è stato inserito il tag <u> z-index,</u> che dimostra il livello dell'immagine, z-index: -1 significa che l'immagine sarà posta sotto un'altra immagine, e la <u> box-shadow </u> </p>
+  <p> per determinarne l'ombra.</p>
+
+  <p> All'interno della classe <u> shadow </u> è stato utilizzato il tag <u> filter: brightness,</u> ovvero la luminosità dell'immagine sottostante.</p>
+  <app-code-visualization [text]="codeSamples.get('code_5')">
+  </app-code-visualization>
+
+  <p> All'interno della classe <u> image </u> è stato inserito il tag z-index: 0, in modo che l'immagine sia sovrapposta rispetto alla seconda immagine di sfondo.</p>
+  <app-code-visualization [text]="codeSamples.get('code_6')">
+  </app-code-visualization>
+    
+  <p> Le immagini sono state allegate attraverso il tag <u> src,</u> direttamente all'interno del file HTML. </p>
+  <app-code-visualization [text]="codeSamples.get('code_7')">
+  </app-code-visualization>
+  </li>
+
+  <li>
+    <p> Per cambiare il cursore del mouse quando si clicca sul link, è stata utilizzata la classe <u> cursor,</u> con all'interno il tag <u> cursor:pointer.</u> </p>
+    <app-code-visualization [text]="codeSamples.get('code_8')">
+    </app-code-visualization>
+  </li>
+
+  <li>
+    <p> Per cambiare il colore dei link, è stato utilizzato il tag <u> font color,</u> all'interno del file HTML.</p>
+    <app-code-visualization [text]="codeSamples.get('code_9')">
+    </app-code-visualization>
+  </li>
+
+ <li>
+  <p> Per la creazione dei bottoni è stata usata la classe <u> buttons,</u> con, al suo interno, <u> display: flex</u>, che permette di migliorare il posizionamento dei vari bottoni. </p>
+    <p> Per la grandezza dei bottoni sono stati usati i tag <u> height,</u> ovvero l'altezza, e<u> width,</u> ovvero la larghezza, con misure in rem. 1 Rem corrisponde a 16 pixel. </p>
+    <p> All'interno della classe buttons, è stato inserito il primo colore di background.</p>
+    <app-code-visualization [text]="codeSamples.get('code_10')">
+    </app-code-visualization>
+    
+    <p> Per creare l'effetto sfumato all'interno dei bottoni è stata usata la classe <u> hover </u>, con, all'interno, il secondo colore di background. </p>
+  </li>
+  <app-code-visualization [text]="codeSamples.get('code_11')">
+  </app-code-visualization>
+      
+    <li>
+      Per permettere la funzionalità dei bottoni, è stato usato il tag <u> a href,</u> direttamente all'interno del file HTML.
+    </li>
+    <app-code-visualization [text]="codeSamples.get('code_12')">
+    </app-code-visualization>
+
+  </UL>
+  </font>
+</div>

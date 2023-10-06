@@ -1,0 +1,13 @@
+<pre [style.color]="textColor">
+    <div id="button-container">
+             <button (click)="copyText()"> Copy </button> 
+    </div>
+    <div id="tooltip-container" [ngClass]="{'tooltip-appear' : showTooltip == true}">
+        <label> Copied </label>
+    </div>
+    <code>
+        <label>
+            {{text}}
+        </label>
+    </code>
+</pre>

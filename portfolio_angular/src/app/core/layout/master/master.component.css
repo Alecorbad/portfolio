@@ -4,6 +4,7 @@
   position: fixed;
   left: 0;
   right: 0;
+  z-index: 5;
 }
 .headbar-dim{
   height: var(--head-bar-height);
@@ -11,7 +12,6 @@
 
 
 #pages-container{
-  padding: 8px;
   flex: 1;
   min-height: calc(100vh - var(--head-bar-height) - var(--footer-height) - 1rem); ;
 }

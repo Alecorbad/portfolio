@@ -1,10 +1,11 @@
 #headbar{
-  background: red;
+  background: #800080; /* Deve cambiare rispetto alla pagina selezionata*/
   height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 #pages-container{
@@ -20,7 +21,7 @@
 .page-item{
   flex: 1;
   height: 100%;
-  max-width: 10rem;
+  max-width: 15rem;
   display: flex;
   align-items: center;
   justify-content: center;

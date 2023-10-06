@@ -1,0 +1,15 @@
+
+#title-container>div {
+    padding-top: 1.5rem;
+    font-size: 3rem;
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #2aa25a 0px 0px 10px, #FFF 0px 0px 15px, #2fc639 0px 0px 20px, #1d4712 0px 0px 30px, #03f30b 0px 0px 40px, #01c60e 0px 0px 50px, #3ede3e 0px 0px 75px;
+}
+
+#title-container>div {
+    margin: auto auto;
+    text-align: center
+  }
+#cursor{
+    cursor: pointer;
+    }

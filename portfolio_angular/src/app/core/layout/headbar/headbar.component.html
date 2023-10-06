@@ -1,10 +1,14 @@
-<div id="headbar">
+<div id="headbar" [ngStyle]="{'background-color' : selectedPage.data.headColor}">
   <div id="pages-container">
     <ul id="page-list">
-      <li class="page-item" *ngFor="let page of pages" (click)="changePage(page)">
+      <li
+        class="page-item"
+        *ngFor="let page of pages"
+        (click)="changePage(page)"
+      >
         <div>
           <label>
-            {{page.data.title}}
+            {{ page.data.title }}
           </label>
         </div>
       </li>

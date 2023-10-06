@@ -16,4 +16,5 @@ export class Page{
 export interface PageData{
   id: string;
   title: string;
+  headColor?: string;
 }

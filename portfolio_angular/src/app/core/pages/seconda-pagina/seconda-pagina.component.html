@@ -1,0 +1,34 @@
+<div style="background-color: #8cff9e">
+  <font face="Palatino Linotype">
+  <div id="title-container">
+    <div>Seconda settimana di PCTO</div>
+  </div> </font>
+  <font face="Palatino Linotype">
+  <UL TYPE="DISC">
+        <li> <p> Durante la seconda settimana di stage è stato installato Angular su <u> Visual Studio Code. </u> </p> </li>
+        <li> <p> Il file HTML è stato riportato su <u> Angular. </u> </p> </li>
+        <li> <p> All'interno del file Angular sono stati creati i componenti per la realizzazione della homepage, delle restanti tre pagine, della navigation bar e della footer bar.  </p>
+
+        <li> <p> All'interno del file Angular <u> page.services.ts </u> sono stati inseriti i link alle varie pagine.</p>
+          <app-code-visualization [text]="codeSamples.get('code_1')">
+          </app-code-visualization>  
+              
+     <p> Ogni <u> new page </u> riporta, <u> l'id,</u> il <u> titolo,</u> il colore della <u> navigation bar </u>, che cambia rispetto ad ogni pagina, e la roote.</p> </li>
+     <li> <p> Per la creazione della <u> footer bar,</u> il codice <u> CSS,</u> con all'interno l'altezza, la larghezza, e il colore di background della footer bar, è il seguente: </p> 
+    </li>
+     <app-code-visualization [text]="codeSamples.get('code_2')">
+    </app-code-visualization>
+     
+    <p>Per poter inserire all'interno della footer bar delle scritte, è stata usata la classe <u> footer-text-container. </u></p>
+    <app-code-visualization [text]="codeSamples.get('code_3')">
+    </app-code-visualization>
+    <li>
+      <div id="cursor">
+       <p (click)="goToPreviousPage()"> 
+        Per inserire il bottone all'interno della footer bar sono state usate le <font color="#007200"> <u> classi della pagina precedente,</u> </font> con diversi colori.
+    </p> </div>
+    </li>
+
+  </UL>
+  </font>
+</div>

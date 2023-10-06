@@ -1,5 +1,45 @@
 #footer{
   height: 100%;
   width: 100%;
-  background: green;
+  background: white;
+}
+#footer-text-container{
+  margin: auto auto;
+    text-align: left
+    
+}
+#buttons {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#buttons>li:hover>a {
+  background-color: #87CEEB;
+  transition: .3s;
+  color: black;
+}
+
+#buttons>li>a {
+  width: 8rem;
+  height: 2rem;
+  background-color: #0000FF;
+  cursor: pointer;
+
+  transition: .3s;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+
+  text-decoration: none;
+  color: white;
+
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#buttons>li>a>label{
+  cursor: inherit;
 }
