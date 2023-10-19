@@ -1,0 +1,40 @@
+#title-container>div h1 {
+    font-size: 3rem;
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #2aa25a 0px 0px 10px, #FFF 0px 0px 15px, #2fc639 0px 0px 20px, #1d4712 0px 0px 30px, #03f30b 0px 0px 40px, #01c60e 0px 0px 50px, #3ede3e 0px 0px 75px;
+}
+
+#buttons {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  #buttons>li:hover>a {
+    background-color: #32CD32;
+    transition: .3s;
+    color: black;
+  }
+  
+  #buttons>li>a {
+    width: 8rem;
+    height: 2rem;
+    background-color:#008000;
+  
+    transition: .3s;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+  
+    text-decoration: none;
+    color: white;
+  
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #buttons>li>a>label{
+    cursor: inherit;
+  }

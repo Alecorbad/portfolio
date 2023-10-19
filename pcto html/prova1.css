@@ -1,0 +1,19 @@
+.contenitore {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+#bottone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#bottone.mostra {
+    opacity: 1;
+}

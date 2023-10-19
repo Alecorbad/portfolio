@@ -1,0 +1,52 @@
+#title-container>div h1 {
+    font-size: 3rem;
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #8e2071 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+
+#title-container>div {
+    margin: auto auto;
+    text-align: left
+  }
+
+  #title-container {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+  }
+  
+  #buttons {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  #buttons>li:hover>a {
+    background-color: #ba55d3;
+    transition: .3s;
+    color: black;
+  }
+  
+  #buttons>li>a {
+    width: 8rem;
+    height: 2rem;
+    background-color: #8a2be2;
+    cursor: pointer;
+  
+    transition: .3s;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+  
+    text-decoration: none;
+    color: white;
+  
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #buttons>li>a>label{
+    cursor: inherit;
+  }
